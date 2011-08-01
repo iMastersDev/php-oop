@@ -14,7 +14,7 @@ class Application {
 	 * requisição do usuário conforme adequado.
 	 */
 	public static function start() {
-		$taskConnector = new MySQLTaskConnector( '127.0.0.1' , 'todo' , 'root' , 'oge6742fj' );
+		$taskConnector = new MySQLTaskConnector( '127.0.0.1' , 'todo' , 'usuario' , 'senha' );
 		$taskRepository = new TaskRepository( $taskConnector );
 
 		$userAction = isset( $_GET[ 'action' ] ) ? $_GET[ 'action' ] : 'home';
