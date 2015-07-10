@@ -1,7 +1,10 @@
 <?php
-require_once 'view/gui/UnorderedList.php';
-require_once 'view/gui/ListItem.php';
-require_once 'view/gui/Span.php';
+
+namespace App\view\gui\task;
+
+use App\view\gui\UnorderedList;
+use App\view\gui\ListItem;
+use App\view\gui\Span;
 
 /**
  * Implementação de uma lista de tarefas

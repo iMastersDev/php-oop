@@ -1,5 +1,9 @@
 <?php
-require_once 'model/TaskConnector.php';
+
+namespace App\model;
+
+use App\model\TaskConnector;
+use PDO;
 
 /**
  * Conector MySQL para armazenamento de tarefas

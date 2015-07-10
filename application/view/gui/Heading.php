@@ -1,6 +1,9 @@
 <?php
-require_once 'view/gui/Component.php';
-require_once 'view/gui/Text.php';
+
+namespace App\view\gui;
+
+use App\view\gui\Component;
+use App\view\gui\Text;
 
 /**
  * Implementação de um elemento de interface de usuário que

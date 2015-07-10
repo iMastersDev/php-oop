@@ -1,8 +1,10 @@
 <?php
-require_once 'view/View.php';
-require_once 'view/gui/Anchor.php';
-require_once 'view/gui/Heading.php';
-require_once 'view/gui/Panel.php';
+
+namespace App\view;
+
+use App\view\View;
+use App\view\gui\Anchor;
+use App\view\gui\Panel;
 
 /**
  * Base para implementação de uma View. Essa classe implementa

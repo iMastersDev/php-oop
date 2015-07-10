@@ -1,4 +1,6 @@
 <?php
+
+namespace App\model;
 /**
  * Interface para definição de um conector com o mecanismo
  * de armazenamento de tarefas.

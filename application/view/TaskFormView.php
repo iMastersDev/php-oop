@@ -1,8 +1,11 @@
 <?php
-require_once 'view/AbstractView.php';
-require_once 'view/gui/Form.php';
-require_once 'view/gui/Input.php';
-require_once 'view/gui/Label.php';
+
+namespace App\view;
+
+use App\view\AbstractView;
+use App\view\gui\Form;
+use App\view\gui\Input;
+use App\view\gui\Label;
 
 /**
  * View de criação e edição de tarefas

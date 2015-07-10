@@ -1,5 +1,8 @@
 <?php
-require_once 'view/gui/Component.php';
+
+namespace App\view\gui;
+
+use App\view\gui\Component;
 
 /**
  * Componente de interface de usuário que representa uma lista

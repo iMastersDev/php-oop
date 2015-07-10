@@ -1,5 +1,8 @@
 <?php
-require_once 'model/Task.php';
+
+namespace App\model;
+
+use App\model\Task;
 
 /**
  * Implementação das regras de negócio referentes a lista

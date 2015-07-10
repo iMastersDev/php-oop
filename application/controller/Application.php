@@ -1,8 +1,11 @@
 <?php
-require_once 'model/MySQLTaskConnector.php';
-require_once 'model/TaskRepository.php';
-require_once 'view/MainView.php';
-require_once 'view/TaskFormView.php';
+
+namespace App\controller;
+
+use App\model\MySQLTaskConnector;
+use App\model\TaskRepository;
+use App\view\MainView;
+use App\view\TaskFormView;
 
 /**
  * Controlador da aplicação, esse participante receberá as

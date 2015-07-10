@@ -1,4 +1,7 @@
 <?php
+
+namespace App\model;
+
 /**
  * Entidade que representa uma tarefa
  */

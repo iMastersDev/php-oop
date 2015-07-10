@@ -1,6 +1,9 @@
 <?php
-require_once 'view/AbstractView.php';
-require_once 'view/gui/task/TaskList.php';
+
+namespace App\view;
+
+use App\view\AbstractView;
+use App\view\gui\task\TaskList;
 
 /**
  * Implementação da View principal da lista de tarefas.

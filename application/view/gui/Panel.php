@@ -1,5 +1,8 @@
 <?php
-require_once 'view/gui/Component.php';
+
+namespace App\view\gui;
+
+use App\view\gui\Component;
 
 /**
  * Implementação de um componente de interface de usuário
