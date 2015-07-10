@@ -1,4 +1,7 @@
 <?php
+
+namespace App\view\gui;
+
 /**
  * Interface para definição de um componente de interface
  * de usuário. Essa classe é a base para a criação de
